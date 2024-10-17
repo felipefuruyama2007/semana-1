@@ -6,3 +6,6 @@ function checkguess (){
     if (userGuess === randomNumber) {
         document.getElementById (message).innerText = 'parabens voce acertou';
 
+    } else if( userGuess<randomnumber)
+    {
+        document.getElementById('message').innerText 
